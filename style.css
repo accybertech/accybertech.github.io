@@ -1,0 +1,178 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Stile per la navbar */
+.navbar {
+    background-color: rgba(51, 51, 51, 0.6);  /* Colore di sfondo con trasparenza */
+    backdrop-filter: blur(5px);                 /* (facoltativo) sfoca il contenuto dietro */
+    overflow: hidden;                           /* Nasconde gli elementi che escono dalla barra */
+    position: fixed;                            /* Tiene la barra sempre visibile in alto */
+    top: 0;                                     /* Posizionata in cima */
+    width: 100%;                                /* Occupa tutta la larghezza */
+    z-index: 1000;                              /* Sta sopra gli altri elementi */
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;   /* effetto morbido */
+}
+
+.navbar a:hover {
+  background-color: rgba(255, 255, 255, 0.2);   /*sfondo chiaro e trasparente */
+  color: #ffffff;
+}
+
+
+.content {
+    padding: 20px;
+}
+
+.right_item {
+    float: right !important;   /* Forza l'allineamento a destra */
+    padding: 14px 20px;
+}
+
+.logo_navbar {
+    float: left;
+    width: 50px;
+
+}
+
+/* Stile per il footer */
+.footer {
+  position: fixed;
+  left: 0;                                      /* assicurati che parta da sinistra */
+  right: 0;                                     /* e arrivi a destra */
+  bottom: 0;
+  width: 100%;                                  /* larghezza piena */
+  background-color: rgba(51, 51, 51, 0.6);    /* colore di sfondo con trasparenza */
+  backdrop-filter: blur(5px);                   /* sfoca il contenuto dietro */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  z-index: 1000;                                /* per essere sopra gli altri elementi */
+}
+
+
+.footer a {
+  color: #00bcd4;            /* colore azzurrino elegante */
+  text-decoration: none;       /* rimuove la sottolineatura */
+  transition: color 0.3s ease; /* transizione fluida al passaggio */
+
+}
+
+.footer a:hover {
+  color: #ffffff;            /* colore bianco quando ci passi sopra */
+}
+
+/* Stile per le immagini finestra principale*/
+.image_front,
+.content_me {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.image_front img,
+.content_me img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Stile per la sezione "content_me" sinistra */
+.content_me_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  gap: 40px;
+  background-image: url('/img/keyboard.jpg'); /* Immagine di sfondo se vuoi usarla */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.overlay_text {
+  flex: 1;
+  background-color: rgba(0, 0, 0, 0.4);  /* Sfondo semitrasparente per il testo */
+  backdrop-filter: blur(5px);              /* Sfoca il contenuto dietro */
+  color: white;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+.overlay_text:hover {
+  border-color: #00bcd4; /* Cambia il colore del bordo al passaggio del mouse */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Aggiunge un'ombra per dare profondità */
+  transition: border-color 0.3s ease, box-shadow 0.3s
+}
+
+.photo_container {
+  flex-shrink: 0;
+}
+
+.my_photo_1 {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+  display: block;
+  float: right;
+  margin-left: 20px;  /* Spazio tra il testo e l'immagine */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Aggiunge un'ombra per dare profondità */
+}
+
+.content_me_row_2 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 40px;
+  background-image: url('/img/coding.jpg'); /* Immagine di sfondo se vuoi usarla */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  gap: 40px;
+  background-color: rgba(0, 0, 0, 0.4); /* Sfondo semitrasparente */
+  backdrop-filter: blur(5px);           /* Sfoca il contenuto dietro */
+}
+
+.overlay_text_2 {
+  flex: 1;
+  background-color: rgba(0, 0, 0, 0.4);  /* Sfondo semitrasparente per il testo */
+  backdrop-filter: blur(5px);              /* Sfoca il contenuto dietro */
+  color: white;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+  max-width: 900px;
+
+}
+
+.overlay_text_2:hover {
+  border-color: #00bcd4; /* Cambia il colore del bordo al passaggio del mouse */
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.6); /* Aggiunge un'ombra per dare profondità */
+  transition: border-color 0.3s ease, box-shadow 0.3s;
+}
+
+
+
+
+
+
