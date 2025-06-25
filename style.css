@@ -7,6 +7,10 @@ body {
     background-color: rgb(34, 29, 29);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Stile per la navbar */
 .navbar {
     background-color: rgba(51, 51, 51, 0.6);  /* Colore di sfondo con trasparenza */
@@ -212,6 +216,27 @@ body {
 
 .final_section li {
   margin-bottom: 5px;
+}
+
+/* Stile per la sezione "about" */
+#about {
+  scroll-margin-top: 80px; /* distanza dal top quando scrolli */
+}
+
+/* Stile per la sezione "projects" */
+#projects {
+  scroll-margin-top: 80px; /* distanza dal top quando scrolli */
+}
+
+/* Stile per la sezione "contact" */
+
+#contact {
+  scroll-margin-top: 80px; /* distanza dal top quando scrolli */
+}
+
+/* Stile per la sezione "skills" */
+#skills {
+  scroll-margin-top: 40px; /* distanza dal top quando scrolli */
 }
 
 
