@@ -68,8 +68,11 @@ html {
   font-family: Arial, sans-serif;
   font-size: 14px;
   z-index: 1000;                                /* per essere sopra gli altri elementi */
+  border: none!important; /* rimuove il bordo */
+  transform: none !important; /* rimuove la trasformazione */
+  transition: none !important; /* rimuove la transizione */
+  box-shadow: none !important; /* rimuove l'ombra */
 }
-
 
 .footer a {
   color: #00bcd4;            /* colore azzurrino elegante */
@@ -182,7 +185,7 @@ html {
   flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 .final_section > div {
@@ -229,6 +232,25 @@ html {
   text-decoration: underline;  /* opzionale: sottolinea solo in hover */
 }
 
+/* Stile per la sezione qrcode */
+/* Centra solo l’immagine del QR code */
+.qrcode_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  text-align: center; /* centra il testo sotto il QR code */
+}
+
+/* Applica stile SOLO al QR Code */
+.qr_img {
+  width:150px;       /* Dimensione contenuta */
+  height: auto;
+
+}
+
+
+
 
 /* Stile per la sezione "about" */
 #about {
@@ -241,7 +263,6 @@ html {
 }
 
 /* Stile per la sezione "contact" */
-
 #contacts {
   scroll-margin-top: 80px; /* distanza dal top quando scrolli */
 }
