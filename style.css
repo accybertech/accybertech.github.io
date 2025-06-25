@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    background-color: rgb(34, 29, 29);
 }
 
 /* Stile per la navbar */
@@ -167,12 +168,51 @@ body {
 
 .overlay_text_2:hover {
   border-color: #00bcd4; /* Cambia il colore del bordo al passaggio del mouse */
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.6); /* Aggiunge un'ombra per dare profondità */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Aggiunge un'ombra per dare profondità */
   transition: border-color 0.3s ease, box-shadow 0.3s;
 }
 
+.final_section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  margin-bottom: 100px;
+}
 
+.final_section > div {
+  flex: 1;
+  min-width: 250px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 2px solid white;
+  border-radius: 15px;
+  color: #ffffff;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+/* Effetto al passaggio del mouse */
+.final_section > div:hover {
+  transform: translateY(-5px);
+  border-color: #00bcd4; /* Cambia il colore del bordo al passaggio del mouse */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Aggiunge un'ombra per dare profondità */
+}
+
+/* Tipografia */
+.final_section h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.final_section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.final_section li {
+  margin-bottom: 5px;
+}
 
 
 
