@@ -218,6 +218,18 @@ html {
   margin-bottom: 5px;
 }
 
+#contacts a {
+  color: #00bcd4;               /* colore azzurrino elegante */
+  text-decoration: none;       /* niente sottolineatura */
+  transition: color 0.3s ease; /* transizione morbida */
+}
+
+#contacts a:hover {
+  color: #ffffff;              /* cambia in bianco quando passi sopra */
+  text-decoration: underline;  /* opzionale: sottolinea solo in hover */
+}
+
+
 /* Stile per la sezione "about" */
 #about {
   scroll-margin-top: 80px; /* distanza dal top quando scrolli */
@@ -230,7 +242,7 @@ html {
 
 /* Stile per la sezione "contact" */
 
-#contact {
+#contacts {
   scroll-margin-top: 80px; /* distanza dal top quando scrolli */
 }
 
