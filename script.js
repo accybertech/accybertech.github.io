@@ -14,6 +14,7 @@
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
+/* -------------------------------------------------------------------------------------------------*/
 
 //menu mobile
 // Toggle mobile menu visibility
@@ -33,9 +34,9 @@
     menu.style.display = "none";
   }
 
+/* -------------------------------------------------------------------------------------------------*/
 
 // chiudi la tendina se aperta quando si clicca su altre parti dello schermo
-
   document.addEventListener("click", function(event) {
     const menu = document.getElementById("mobileMenu");
     const toggleButton = document.querySelector(".toggle-button");
@@ -46,6 +47,7 @@
     }
   });
 
+/* -------------------------------------------------------------------------------------------------*/
 
 // Toggle mobile menu visibility to close it when a link is clicked and to close it when clicking outside the menu
   function toggleMobileMenu() {
