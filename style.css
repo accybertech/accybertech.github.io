@@ -55,7 +55,7 @@ html {
 
 /* Stile per il footer */
 .footer {
-  position: fixed;                            /* Fissa il footer in basso */
+  position: fixed;                              /* Fissa il footer in basso */
   left: 0;                                      /* parte da sinistra */
   right: 0;                                     /* e arrivi a destra */
   bottom: 0;
