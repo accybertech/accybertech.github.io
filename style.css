@@ -267,7 +267,7 @@ html {
   scroll-margin-top: 40px; /* distanza dal top quando scrolli */
 }
 
-
+/* Stile per il pulsante "Scroll to Top" */
 #scrollTopBtn {
   position: fixed;
   bottom: 30px;
@@ -292,3 +292,62 @@ html {
 }
 
 
+/* Stile per il menu responsive */
+/* Icona hamburger visibile solo su mobile */
+.mobile_menu_icon {
+  display: none;
+  font-size: 28px;
+  color: white;
+  position: fixed;
+  top: 0px;
+  right: 20px;
+  z-index: 1100;
+  cursor: pointer;
+}
+
+.mobile_menu_icon:hover {
+  color: #00bcd4; /* colore blu al passaggio del mouse */
+  transition: color 0.3s ease;
+}
+
+/* Menu mobile inizialmente nascosto */
+.mobile_menu {
+  display: none;
+  flex-direction: column;
+  background-color: rgba(51, 51, 51, 0.6);
+  backdrop-filter: blur(5px);
+  position: fixed;
+  top: 0px;
+  right: 0;
+  width: 200px;
+  padding: 10px;
+  z-index: 1001;
+  backdrop-filter: blur(5px);
+  border-left: 2px solid white;
+  border-bottom: 2px solid white;
+  border-radius: 0 0 0 10px;
+}
+
+.mobile_menu:hover {
+  border: 2px solid #00bcd4; /* bordo blu al passaggio del mouse */
+  transition: color 0.3s ease, border 0.3s ease;
+}
+
+.mobile_menu a {
+  padding: 10px;
+  color: #f2f2f2;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.mobile_menu a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #00bcd4; /* colore blu al passaggio del mouse */
+  border-radius: 5px;
+}
+
+/* Mostra icona e menu solo su schermi piccoli */
+@media screen and (max-width: 768px) {
+  .navbar a { display: none; } /* Nasconde la navbar desktop */
+  .mobile_menu_icon { display: block; }
+}
