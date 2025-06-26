@@ -36,7 +36,7 @@ html {
 
 .navbar a:hover {
   background-color: rgba(255, 255, 255, 0.2);   /*sfondo chiaro e trasparente */
-  color: #ffffff;
+  color: #00bcd4;                        /* colore blu al passaggio del mouse */
 }
 
 .content {
