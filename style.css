@@ -11,6 +11,8 @@ html {
   scroll-behavior: smooth;
 }
 
+/*------------------------------------------------------------------------------------------*/
+
 /* Stile per la navbar */
 .navbar {
     background-color: rgba(51, 51, 51, 0.6);  /* Colore di sfondo con trasparenza */
@@ -50,8 +52,9 @@ html {
 .logo_navbar {
     float: left;
     width: 50px;
-
 }
+
+/*------------------------------------------------------------------------------------------*/
 
 /* Stile per il footer */
 .footer {
@@ -85,6 +88,8 @@ html {
   color: #ffffff;            /* colore bianco quando ci passi sopra */
 }
 
+/*------------------------------------------------------------------------------------------*/
+
 /* Stile per le immagini finestra principale*/
 .image_front,
 .content_me {
@@ -100,6 +105,8 @@ html {
   height: auto;
   display: block;
 }
+
+/*------------------------------------------------------------------------------------------*/
 
 /* Stile per la sezione "content_me" sinistra */
 .content_me_row {
@@ -178,6 +185,8 @@ html {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Aggiunge un'ombra per dare profondità */
   transition: border-color 0.3s ease, box-shadow 0.3s;
 }
+
+/*------------------------------------------------------------------------------------------*/
 
 /* Stile per la sezione "finale" */
 .final_section {
@@ -267,6 +276,8 @@ html {
   scroll-margin-top: 40px; /* distanza dal top quando scrolli */
 }
 
+/*------------------------------------------------------------------------------------------*/
+
 /* Stile per il pulsante "Scroll to Top" */
 #scrollTopBtn {
   position: fixed;
@@ -291,6 +302,7 @@ html {
   color: #ffffff;
 }
 
+/*------------------------------------------------------------------------------------------*/
 
 /* Stile per il menu responsive */
 /* Icona hamburger visibile solo su mobile */
