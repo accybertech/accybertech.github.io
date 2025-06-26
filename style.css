@@ -55,8 +55,8 @@ html {
 
 /* Stile per il footer */
 .footer {
-  position: fixed;
-  left: 0;                                      /* assicurati che parta da sinistra */
+  position: fixed;                            /* Fissa il footer in basso */
+  left: 0;                                      /* parte da sinistra */
   right: 0;                                     /* e arrivi a destra */
   bottom: 0;
   width: 100%;                                  /* larghezza piena */
@@ -68,14 +68,14 @@ html {
   font-family: Arial, sans-serif;
   font-size: 14px;
   z-index: 1000;                                /* per essere sopra gli altri elementi */
-  border: none!important; /* rimuove il bordo */
-  transform: none !important; /* rimuove la trasformazione */
-  transition: none !important; /* rimuove la transizione */
-  box-shadow: none !important; /* rimuove l'ombra */
+  border: none!important;                       /* rimuove il bordo */
+  transform: none !important;                   /* rimuove la trasformazione */
+  transition: none !important;                  /* rimuove la transizione */
+  box-shadow: none !important;                  /* rimuove l'ombra */
 }
 
 .footer a {
-  color: #00bcd4;            /* colore azzurrino elegante */
+  color: #00bcd4;
   text-decoration: none;       /* rimuove la sottolineatura */
   transition: color 0.3s ease; /* transizione fluida al passaggio */
 
