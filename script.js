@@ -47,9 +47,6 @@
   });
 
 
-
-
-
 // Toggle mobile menu visibility to close it when a link is clicked and to close it when clicking outside the menu
   function toggleMobileMenu() {
     const menu = document.getElementById("mobileMenu");
